@@ -16,9 +16,7 @@ class ShoppingViewModel(
         repo.upsert(item)
     }
 
-    fun getItems() = CoroutineScope(Dispatchers.Main).launch {
-        repo.getItems()
-    }
+    fun getItems() = repo.getItems()
 
     fun deleteItem(item: ShoppingItem) = CoroutineScope(Dispatchers.Main).launch {
         repo.delete(item)

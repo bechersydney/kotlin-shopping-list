@@ -8,5 +8,5 @@ class ShoppingRepository(
 ) {
     suspend fun upsert(item: ShoppingItem) = db.getShoppingDao().upsert(item)
     suspend fun delete(item: ShoppingItem) = db.getShoppingDao().deleteItem(item)
-    suspend fun getItems() = db.getShoppingDao().getItems()
+    fun getItems() = db.getShoppingDao().getItems()
 }
