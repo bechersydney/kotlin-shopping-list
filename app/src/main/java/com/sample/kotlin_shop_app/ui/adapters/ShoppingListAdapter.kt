@@ -29,6 +29,7 @@ class ShoppingListAdapter(
         _binding.tvName.text = currentItem.name
         _binding.ivDelete.setOnClickListener{
             viewModel.deleteItem(currentItem)
+            notifyItemRemoved(position)
         }
         _binding.ivPlus.setOnClickListener {
             currentItem.quantity++

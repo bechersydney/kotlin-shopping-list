@@ -17,3 +17,9 @@ Capp/src/main/java/com/sample/kotlin_shop_app/data/db/ShoppingDao.kt,1/4/148069
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 
 Oapp/src/main/java/com/sample/kotlin_shop_app/ui/adapters/ShoppingListAdapter.kt,c/2/c281681bbacc7e1d7be80c42ef2056086aa2d16c
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+~
+Napp/src/main/java/com/sample/kotlin_shop_app/ui/shoppingList/DialogListener.kt,5/9/596071fd69bd796d93cb1718a04ae0e2ea226fee
+…
+Uapp/src/main/java/com/sample/kotlin_shop_app/ui/shoppingList/AddShoppingItemDialog.kt,d/3/d3f68e7b16620c4034539e39dc58ac198e79b0ce
